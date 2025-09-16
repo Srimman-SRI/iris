@@ -47,7 +47,7 @@ data_files_list = [
     (f'share/{package_name}', ['package.xml']),
     (f'share/{package_name}/config', config_files),
     (f'share/{package_name}/rviz', rviz_files),
-    (f'share/{package_name}/env-hooks', ['env-hooks/iris.dsv.in']),
+    (f'share/{package_name}/env-hooks', ['env-hooks/iris.dsv']),
 ]
 
 for dest_dir, files in data_files_dict.items():
